@@ -1,0 +1,70 @@
+body {
+  margin: 0px;
+}
+.app {
+  flex: 1;
+  color: black;
+}
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: grey;
+  color: white;
+}
+h3 {
+  margin: 0;
+  font-size: 32px;
+}
+.leftSection {
+  padding: 10px 30px;
+  align-content: center;
+}
+.middleSection {
+  padding: 10px 30px;
+  align-items: baseline;
+  align-content: center;
+    background-color: grey;
+
+}
+.leftSection > * {
+  margin-right: 30px;
+}
+.rightSection {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 30px;
+    background-color: grey;
+}
+.rightSection > * {
+  margin-right: 30px;
+}
+.rightSection button {
+  width: max-content;
+  height: 2rem;
+}
+
+.leftSection input,
+h4 {
+  width: max-content;
+  height: 2rem;
+}
+.middleSection input{
+  width:30rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+#login {
+  background-color: grey;
+  border: none;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card{
+  
+}

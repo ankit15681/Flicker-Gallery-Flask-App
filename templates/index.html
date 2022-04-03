@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zavi Assignment</title>
+    <!-- <link href= type="text/css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+  </head>
+  <body>
+    <div class="app">
+      <div class="NavBar">
+        <div class="leftSection">
+          <h3>My Gallery</h3>
+        </div>
+        <div class="middleSection">
+          <input
+            id="search"
+            name="search"
+            type="search"
+            placeholder="Photos, People, Groups"
+          />
+        </div>
+        <div class="rightSection">
+          <button id="login">Login</button>
+          <button id="signup">SignUp</button>
+        </div>
+      </div>
+      <div id="container" class="container"></div>
+    </div>
+    <script src="./static/js/index.js"></script>
+  </body>
+</html>
