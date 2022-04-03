@@ -1,3 +1,4 @@
+/* Initial css reset */
 body {
   margin: 0px;
 }
@@ -5,6 +6,8 @@ body {
   flex: 1;
   color: black;
 }
+
+/* Navigation Menu */
 .NavBar {
   display: flex;
   flex-direction: row;
@@ -24,8 +27,7 @@ h3 {
   padding: 10px 30px;
   align-items: baseline;
   align-content: center;
-    background-color: grey;
-
+  background-color: grey;
 }
 .leftSection > * {
   margin-right: 30px;
@@ -34,7 +36,7 @@ h3 {
   display: flex;
   flex-direction: row;
   padding: 10px 30px;
-    background-color: grey;
+  background-color: grey;
 }
 .rightSection > * {
   margin-right: 30px;
@@ -49,8 +51,8 @@ h4 {
   width: max-content;
   height: 2rem;
 }
-.middleSection input{
-  width:30rem;
+.middleSection input {
+  width: 30rem;
   height: 2rem;
   font-size: 1rem;
 }
@@ -60,11 +62,26 @@ h4 {
   color: white;
 }
 
+/* Image Cards Continer */
+
 .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.card{
-  
+
+/* Image Card */
+
+.card {
+  width: calc(24.83%);
+  height: 300px;
+}
+.container img{
+  margin: 5px 1px;
+  object-fit: cover;
+}
+
+/* Adds Grayscale Effect on Hover */
+.container img:hover{
+  filter:grayscale(100%)
 }
